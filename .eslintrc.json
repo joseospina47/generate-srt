@@ -1,0 +1,17 @@
+{
+  "plugins": ["prettier"],
+  "extends": [
+    "eslint:recommended",
+    "airbnb-base",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": ["error", { "singleQuote": true }],
+    "comma-dangle": ["error", "never"]
+  },
+  "env": {
+    "es6": true,
+    "node": true
+  }
+}
